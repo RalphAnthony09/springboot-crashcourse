@@ -24,15 +24,15 @@
 |                | POST        | /animals/{animalId}/sleep        | Record a sleeping action for an animal                  |
 |                | POST        | /animals/{animalId}/roam         | Record a roaming action for an animal                   |
 |                | POST        | /animals/{animalId}/makeSound    | Record a make sound action for an animal                |
-| Animal Feeding | POST        | /animals/{animalId}/feed         | Get details of a specific shop                          |
+| Animal Feeding | POST        | /animals/{animalId}/feed         | Record a feeding for the animal                         |
 | Shop           | GET         | /shops                           | Get information of all the shops                        |
 |                | GET         | /shops/{shopId}                  | Get specific information of a shop                      |
 | Purchase       | POST        | /shops/{shopId}/purchases        | Record a purchase in a shop                             |
 | Hospital       | GET         | /hospital                        | Get general hospital information                        |
 |                | POST        | /hospital/admit                  | Admit an animal to the hospital                         |
 |                | POST        | /hospital/discharge              | Discharge an animal from the hospital                   |
-| Lecture        | GET         | /hospital/lectures               | List all science lectures                               |
-|                | GET         | /hospital/lectures/{lectureId}   | Get details of a specific science lecture               |
+| Lecture        | GET         | /hospital/lectures               | List all lectures                                       |
+|                | GET         | /hospital/lectures/{lectureId}   | Get details of a specific lecture                       |
 | Manager        | GET         | /managers                        | List all managers                                       |
 |                | GET         | /managers/{managerId}            | Get details of a specific manager                       |
 |                | PUT         | /managers/{managerId}/locations  | Update manager location                                 |
