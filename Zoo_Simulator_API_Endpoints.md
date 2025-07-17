@@ -24,7 +24,7 @@
 |                | POST        | /animals/{animalId}/sleep        | Record a sleeping action for an animal                  |
 |                | POST        | /animals/{animalId}/roam         | Record a roaming action for an animal                   |
 |                | POST        | /animals/{animalId}/makeSound    | Record a make sound action for an animal                |
-| Animal Feeding | POST        | /animals/{animalId}/feed         | Record a feeding for the animal                         |
+|                | POST        | /animals/{animalId}/feed         | Record a feeding for the animal                         |
 | Shop           | GET         | /shops                           | Get information of all the shops                        |
 |                | GET         | /shops/{shopId}                  | Get specific information of a shop                      |
 | Purchase       | POST        | /shops/{shopId}/purchases        | Record a purchase in a shop                             |
