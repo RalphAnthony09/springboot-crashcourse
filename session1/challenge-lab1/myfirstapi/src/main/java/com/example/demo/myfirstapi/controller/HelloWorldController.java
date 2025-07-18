@@ -15,3 +15,4 @@ public class HelloWorldController {
         return customGreeting; // Now returns the custom message
     }
 }
+

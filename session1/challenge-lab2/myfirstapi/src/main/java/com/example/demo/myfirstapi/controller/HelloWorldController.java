@@ -12,7 +12,6 @@ public class HelloWorldController {
             @RequestParam(value = "name", required = false, defaultValue = "World") String name) {
         return "Hello, " + name + "!";
     }
-
     @GetMapping("/calculate/sum") public String sumNumbers(
             @RequestParam("num1") int number1, @RequestParam("num2") int number2) {
         int sum = number1 + number2;
