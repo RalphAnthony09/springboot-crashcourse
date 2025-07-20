@@ -13,6 +13,8 @@
         <module name="myfirstapi (2)" />
         <module name="myfirstapi (5)" />
         <module name="myfirstapi (4)" />
+        <module name="myfirstapi (7)" />
+        <module name="myfirstapi (6)" />
       </profile>
     </annotationProcessing>
   </component>
@@ -24,6 +26,8 @@
       <module name="myfirstapi (3)" options="-parameters" />
       <module name="myfirstapi (4)" options="-parameters" />
       <module name="myfirstapi (5)" options="-parameters" />
+      <module name="myfirstapi (6)" options="-parameters" />
+      <module name="myfirstapi (7)" options="-parameters" />
     </option>
   </component>
 </project>
